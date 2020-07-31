@@ -1,24 +1,30 @@
-:root {
-  --mainColor: #eaeaea;
-  --secondaryColor: #fff;
+:root{
+	--mainColor:#46344E;
+	--secondaryColor:#382a3f;
 
-  --borderColor: #c1c1c1;
+	--borderColor:#1d1520;
 
-  --mainText: Black;
-  --secondaryText: #4b5156;
+	--mainText:#fff;
+	--secondaryText:#eeeeee;
 
-  --themeDotBorder: #24292e;
+	--themeDotBorder:#FFF;
 
-  --previewBg: rgb(251, 249, 243, 0.8);
-  --previewShadow: #f0ead6;
+	--previewBg:rgb(29, 21, 32, 0.8);
+	--previewShadow:#2b202f;
 
-  --btnColor:black;
+
+	--buttonColor:#8534a3;
+
 }
 
 html,
 body {
   padding: 0;
   margin: 0;
+}
+
+body *{
+  transition: 0.3s;
 }
 
 h1,
@@ -122,6 +128,10 @@ h6 {
   border-radius: 5px 5px 0 0;
 }
 
+#navigation a{
+  color: var(--mainText);
+}
+
 #navigation {
   margin: 0;
   padding: 10px;
@@ -205,8 +215,8 @@ h6 {
   background-color: #fff;
 }
 
-#dark-mode {
-  background-color: #242020;
+#blue-mode {
+  background-color: #15202B;
 }
 
 #orange-mode {
