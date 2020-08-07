@@ -374,7 +374,8 @@ line-height: 2.7em;
 	padding-bottom:10px; 
 	color: #fff;
 	background-color: var(--btnColor);
-	border:none;
+  border:none;
+  cursor: pointer;
 }
 
 .input-field{
